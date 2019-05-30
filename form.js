@@ -11,4 +11,12 @@ function validatePassword() {
 
     if(!val)
         window.alert("Password is incorrect!");
+    else
+        changeHeader();
+}
+
+function changeHeader() {
+
+    document.getElementById('header').innerHTML = "Your Information is Correct";
+    document.getElementById('header').style.color = "lime";
 }
