@@ -2,10 +2,12 @@ button {
 
     font-size: 30px;
     font-style: sans-serif;
+    display: block;
 }
 
 p {
 
     font-size: 30px;
     color: red;
+    display: inline;
 }
