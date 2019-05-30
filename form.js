@@ -18,5 +18,5 @@ function validatePassword() {
 function changeHeader() {
 
     document.getElementById('header').innerHTML = "Your Information is Correct";
-    document.getElementById('header').style.color = "lime";
+    document.getElementById('header').style.color = "purple";
 }
