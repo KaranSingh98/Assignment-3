@@ -4,7 +4,7 @@ input {
     height: 55px;
     font-size: 50px;
     border-radius: 25px;
-
+    color: purple;
 }
 
 h1 {
@@ -33,4 +33,9 @@ input[type="text"] {
 button {
 
     font-size: 30px;
+}
+
+body {
+
+    background-color: gold;
 }
