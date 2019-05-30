@@ -1,17 +1,38 @@
-<head>
+<!DOCTYPE html>
 
-    <title>
-        Arguing Buttons
-    </title>
+<html>
 
-</head>
+    <head>
 
-<body>
+        <title>
+            Arguing Buttons
+        </title>
 
-    <button>
+        <script>
 
+            function argueFunc1(){
 
+                document.getElementById('argue1').innerHTML = "I'm right";
+            }
 
-    </button>
+            function argueFunc2(){
 
-</body>
+                document.getElementById('argue2').innerHTML = "No, I'm right!";
+
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <button onclick = "argueFunc1()"> Click Me </button>
+
+        <p style="display: inline-flex" id="argue1"> </p>
+
+        <button id="argue2" onclick = "argueFunc2()"> Click Me </button>
+
+    </body>
+
+</html>
