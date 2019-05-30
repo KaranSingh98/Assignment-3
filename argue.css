@@ -1,4 +1,11 @@
 button {
 
     font-size: 30px;
+    font-style: sans-serif;
+}
+
+p {
+
+    font-size: 30px;
+    color: red;
 }
