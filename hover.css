@@ -1,0 +1,12 @@
+h1 {
+
+    color: gold;
+    background-color: purple;
+    width: auto;
+}
+
+body {
+
+    background-color: gold;
+    background-image: url("./youCrazy.gif");
+}
